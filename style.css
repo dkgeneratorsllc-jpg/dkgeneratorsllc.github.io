@@ -11,26 +11,26 @@ body {
 }
 
 header {
-  background: #0b0b0b;
+  background: #000;
   color: white;
   padding: 18px 8%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  border-bottom: 4px solid #39ff14;
+  border-bottom: 5px solid #39ff14;
 }
 
 .logo {
-  font-size: 22px;
-  font-weight: bold;
   color: #39ff14;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  margin-left: 18px;
+  margin-left: 20px;
   font-weight: bold;
 }
 
@@ -39,10 +39,14 @@ nav a:hover {
 }
 
 .hero {
-  min-height: 500px;
+  min-height: 550px;
   background:
-    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
-    url("images/ChatGPT Image Jun 8, 2026 at 11_28_35 AM.png");
+    linear-gradient(
+      rgba(0,0,0,.55),
+      rgba(0,0,0,.55)
+    ),
+    url("ChatGPT Image Jun 8, 2026 at 11_28_35 AM.png");
+
   background-size: cover;
   background-position: center;
   display: flex;
@@ -52,34 +56,35 @@ nav a:hover {
 }
 
 .hero-content {
-  max-width: 700px;
+  max-width: 750px;
 }
 
 .hero h1 {
-  font-size: 48px;
+  font-size: 52px;
   margin-bottom: 15px;
   line-height: 1.1;
 }
 
 .hero p {
-  font-size: 22px;
+  font-size: 24px;
   margin-bottom: 25px;
 }
 
 .btn {
   display: inline-block;
   background: #39ff14;
-  color: #000;
-  padding: 14px 24px;
+  color: #000 !important;
+  font-weight: 900;
+  font-size: 20px;
   text-decoration: none;
-  font-weight: bold;
-  border-radius: 6px;
-  border: 2px solid #39ff14;
+  padding: 16px 28px;
+  border-radius: 8px;
+  border: 3px solid #39ff14;
 }
 
 .btn:hover {
   background: #000;
-  color: #39ff14;
+  color: #39ff14 !important;
 }
 
 .section {
@@ -92,11 +97,6 @@ nav a:hover {
   margin-top: 0;
 }
 
-.dark {
-  background: #111;
-  color: white;
-}
-
 .cards {
   padding: 50px 8%;
   display: grid;
@@ -107,20 +107,18 @@ nav a:hover {
 
 .card {
   background: white;
-  padding: 28px;
+  padding: 30px;
   border-radius: 8px;
   border-top: 5px solid #39ff14;
-  box-shadow: 0 2px 10px rgba(0,0,0,.15);
+  box-shadow: 0 3px 10px rgba(0,0,0,.15);
 }
 
 .card h3 {
   margin-top: 0;
-  font-size: 24px;
 }
 
 .card a {
-  text-decoration: none;
-  color: #111;
+  color: #000;
   font-weight: bold;
 }
 
@@ -128,12 +126,12 @@ nav a:hover {
   background: #111;
   color: white;
   padding: 70px 8%;
-  border-bottom: 4px solid #39ff14;
+  border-bottom: 5px solid #39ff14;
 }
 
 .page-title h1 {
   margin: 0;
-  font-size: 42px;
+  font-size: 44px;
 }
 
 .page-title p {
@@ -142,11 +140,15 @@ nav a:hover {
 
 .service-list {
   columns: 2;
-  font-size: 18px;
 }
 
 .service-list li {
   margin-bottom: 12px;
+}
+
+.dark {
+  background: #111;
+  color: white;
 }
 
 footer {
@@ -154,7 +156,7 @@ footer {
   color: white;
   text-align: center;
   padding: 25px;
-  border-top: 4px solid #39ff14;
+  border-top: 5px solid #39ff14;
 }
 
 footer p {
