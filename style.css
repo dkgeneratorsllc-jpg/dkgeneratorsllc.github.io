@@ -39,10 +39,10 @@ nav a:hover {
 }
 
 .hero {
-  min-height: 460px;
+  min-height: 500px;
   background:
-    linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
-    url("images/truck.jpg");
+    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+    url("images/ChatGPT Image Jun 8, 2026 at 11_28_35 AM.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -56,13 +56,13 @@ nav a:hover {
 }
 
 .hero h1 {
-  font-size: 46px;
+  font-size: 48px;
   margin-bottom: 15px;
   line-height: 1.1;
 }
 
 .hero p {
-  font-size: 21px;
+  font-size: 22px;
   margin-bottom: 25px;
 }
 
@@ -83,12 +83,12 @@ nav a:hover {
 }
 
 .section {
-  padding: 55px 8%;
+  padding: 60px 8%;
   background: white;
 }
 
 .section h2 {
-  font-size: 32px;
+  font-size: 34px;
   margin-top: 0;
 }
 
@@ -97,16 +97,12 @@ nav a:hover {
   color: white;
 }
 
-.dark a {
-  color: #39ff14;
-}
-
 .cards {
-  padding: 45px 8%;
+  padding: 50px 8%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
-  background: #e9e9e9;
+  background: #ececec;
 }
 
 .card {
@@ -123,7 +119,8 @@ nav a:hover {
 }
 
 .card a {
-  color: #0b0b0b;
+  text-decoration: none;
+  color: #111;
   font-weight: bold;
 }
 
@@ -131,12 +128,12 @@ nav a:hover {
   background: #111;
   color: white;
   padding: 70px 8%;
-  border-bottom: 5px solid #39ff14;
+  border-bottom: 4px solid #39ff14;
 }
 
 .page-title h1 {
+  margin: 0;
   font-size: 42px;
-  margin-bottom: 10px;
 }
 
 .page-title p {
@@ -164,7 +161,8 @@ footer p {
   margin: 5px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
+
   header {
     display: block;
     text-align: center;
@@ -176,11 +174,7 @@ footer p {
 
   nav a {
     display: block;
-    margin: 8px 0;
-  }
-
-  .hero h1 {
-    font-size: 34px;
+    margin: 10px 0;
   }
 
   .cards {
@@ -189,5 +183,13 @@ footer p {
 
   .service-list {
     columns: 1;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .hero p {
+    font-size: 18px;
   }
 }
