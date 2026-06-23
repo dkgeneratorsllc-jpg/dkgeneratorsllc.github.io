@@ -1,197 +1,79 @@
-* {
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Other Services | DK Generators & Mechanical Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f4f4f4;
-  color: #111;
-  line-height: 1.6;
-}
+<header>
+  <div class="logo">DK Generators & Mechanical Services</div>
 
-header {
-  background: #000;
-  color: white;
-  padding: 18px 8%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  border-bottom: 5px solid #39ff14;
-}
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="generators.html">Generators</a>
+    <a href="hvac-refrigeration.html">HVAC & Refrigeration</a>
+    <a href="other-services.html">Other Services</a>
+  </nav>
+</header>
 
-.logo {
-  color: #39ff14;
-  font-size: 24px;
-  font-weight: bold;
-}
+<section class="page-title">
+  <h1>Other Mechanical Services</h1>
+  <p>Commercial equipment, air compressors, welding equipment, marine systems, and specialty mechanical troubleshooting.</p>
+</section>
 
-nav a {
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-  font-weight: bold;
-}
+<section class="section">
+  <div class="image-row">
+    <img src="kitchen-service-1.jpg" alt="Commercial kitchen equipment service" class="page-image">
+    <img src="kitchen-service-2.jpg" alt="Commercial kitchen equipment maintenance" class="page-image">
+    <img src="marine-service.jpg" alt="Marine and boat mechanical service near Raystown Lake" class="page-image">
+  </div>
+</section>
 
-nav a:hover {
-  color: #39ff14;
-}
+<section class="section">
+  <h2>Additional Services</h2>
 
-.hero {
-  min-height: 550px;
-  background:
-    linear-gradient(
-      rgba(0,0,0,.55),
-      rgba(0,0,0,.55)
-    ),
-    url("ChatGPT Image Jun 8, 2026 at 11_28_35 AM.png");
+  <ul class="service-list">
+    <li>Commercial kitchen equipment service</li>
+    <li>Air compressor troubleshooting and repair</li>
+    <li>Welding equipment repair</li>
+    <li>Small welding repairs</li>
+    <li>Mechanical troubleshooting</li>
+    <li>Electrical diagnostics</li>
+    <li>Site lighting service</li>
+    <li>Equipment inspection</li>
+    <li>Preventive maintenance</li>
+    <li>Mobile on-site service</li>
+    <li>Marine and boat electrical troubleshooting</li>
+    <li>Boat HVAC and refrigeration systems</li>
+  </ul>
+</section>
 
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  padding: 60px 8%;
-  color: white;
-}
+<section class="section dark">
+  <h2>Experienced With More Than Just Generators</h2>
 
-.hero-content {
-  max-width: 750px;
-}
+  <p>
+    DK Generators & Mechanical Services works on a wide range of mechanical,
+    electrical, refrigeration, and commercial equipment. From restaurants and
+    commercial kitchens to air compressors, site equipment, and specialty
+    mechanical systems, we provide professional troubleshooting and repair.
+  </p>
 
-.hero h1 {
-  font-size: 52px;
-  margin-bottom: 15px;
-  line-height: 1.1;
-}
+  <p>
+    Serving the Raystown Lake region also means experience with marine and
+    boat-related electrical, mechanical, HVAC, and refrigeration systems.
+  </p>
 
-.hero p {
-  font-size: 24px;
-  margin-bottom: 25px;
-}
+  <a class="btn" href="tel:8146447552">Call 814-644-7552</a>
+</section>
 
-.btn {
-  display: inline-block;
-  background: #39ff14;
-  color: #000 !important;
-  font-weight: 900;
-  font-size: 20px;
-  text-decoration: none;
-  padding: 16px 28px;
-  border-radius: 8px;
-  border: 3px solid #39ff14;
-}
+<footer>
+  <p>DK Generators & Mechanical Services</p>
+  <p>Phone: 814-644-7552</p>
+  <p>Email: dkgenerators.llc@gmail.com</p>
+</footer>
 
-.btn:hover {
-  background: #000;
-  color: #39ff14 !important;
-}
-
-.section {
-  padding: 60px 8%;
-  background: white;
-}
-
-.section h2 {
-  font-size: 34px;
-  margin-top: 0;
-}
-
-.cards {
-  padding: 50px 8%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-  background: #ececec;
-}
-
-.card {
-  background: white;
-  padding: 30px;
-  border-radius: 8px;
-  border-top: 5px solid #39ff14;
-  box-shadow: 0 3px 10px rgba(0,0,0,.15);
-}
-
-.card h3 {
-  margin-top: 0;
-}
-
-.card a {
-  color: #000;
-  font-weight: bold;
-}
-
-.page-title {
-  background: #111;
-  color: white;
-  padding: 70px 8%;
-  border-bottom: 5px solid #39ff14;
-}
-
-.page-title h1 {
-  margin: 0;
-  font-size: 44px;
-}
-
-.page-title p {
-  font-size: 20px;
-}
-
-.service-list {
-  columns: 2;
-}
-
-.service-list li {
-  margin-bottom: 12px;
-}
-
-.dark {
-  background: #111;
-  color: white;
-}
-
-footer {
-  background: #000;
-  color: white;
-  text-align: center;
-  padding: 25px;
-  border-top: 5px solid #39ff14;
-}
-
-footer p {
-  margin: 5px;
-}
-
-@media (max-width: 900px) {
-
-  header {
-    display: block;
-    text-align: center;
-  }
-
-  nav {
-    margin-top: 15px;
-  }
-
-  nav a {
-    display: block;
-    margin: 10px 0;
-  }
-
-  .cards {
-    grid-template-columns: 1fr;
-  }
-
-  .service-list {
-    columns: 1;
-  }
-
-  .hero h1 {
-    font-size: 34px;
-  }
-
-  .hero p {
-    font-size: 18px;
-  }
-}
+</body>
+</html>
